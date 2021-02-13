@@ -1,18 +1,12 @@
-// import PropTypes from 'prop-types';
+import splash from '../images/splash.png';
 
 const About = () => {
 
     return (
-        <div>
-            <p>About will be here</p>
-        </div>
+            <div>
+                <a className="nav-link" href="/play"><img src={splash} className="" alt="splash image for game - schoolyard with children" /></a>
+            </div>
    );
 }    
-
-// About.propTypes = {
-//     baseUrl: PropTypes.string.isRequired, 
-//     selectedCustomerCallback: PropTypes.func.isRequired
-//      };
-     
    
 export default About;

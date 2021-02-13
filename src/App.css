@@ -9,17 +9,6 @@ h3 {
   font-family: 'Pangolin', cursive;
 }
 
-/* .masthead {
-  margin-top: 100px;
-  height: 40vh;
-  min-height: 250px;
-  background-image: url("./images/header.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-bottom: 3px solid #000; 
-} */
-
 .header {
   margin-top: 100px;
 }
@@ -78,10 +67,28 @@ left: 110px;
 
 .spaced-content {
   margin: 5px;
+  margin-bottom: 10px;
 }
 
-.bound-box {
-  border: 25px black;
-  height: 800px;
-  width: 600px;
+.middle-col {
+  min-width: 5px;
 }
+
+.left-col {
+  min-width: 800px;
+  min-height: 600px; 
+}
+
+.right-col {
+  background-color: #42474a;
+  min-width: 250px;
+  color: #a9a39a;
+}
+
+.wrap-img {
+  float: left;
+}
+
+.wrap-text {
+  float:none;
+}  
