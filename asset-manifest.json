@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Reboot-Homepage/static/css/main.2a24568d.chunk.css",
+    "main.js": "/Reboot-Homepage/static/js/main.07e996f5.chunk.js",
+    "main.js.map": "/Reboot-Homepage/static/js/main.07e996f5.chunk.js.map",
+    "runtime-main.js": "/Reboot-Homepage/static/js/runtime-main.8ac3da96.js",
+    "runtime-main.js.map": "/Reboot-Homepage/static/js/runtime-main.8ac3da96.js.map",
+    "static/js/2.2a7c9a37.chunk.js": "/Reboot-Homepage/static/js/2.2a7c9a37.chunk.js",
+    "static/js/2.2a7c9a37.chunk.js.map": "/Reboot-Homepage/static/js/2.2a7c9a37.chunk.js.map",
+    "static/js/3.67d91479.chunk.js": "/Reboot-Homepage/static/js/3.67d91479.chunk.js",
+    "static/js/3.67d91479.chunk.js.map": "/Reboot-Homepage/static/js/3.67d91479.chunk.js.map",
+    "index.html": "/Reboot-Homepage/index.html",
+    "static/css/main.2a24568d.chunk.css.map": "/Reboot-Homepage/static/css/main.2a24568d.chunk.css.map",
+    "static/js/2.2a7c9a37.chunk.js.LICENSE.txt": "/Reboot-Homepage/static/js/2.2a7c9a37.chunk.js.LICENSE.txt",
+    "static/media/bio.a5fc25b3.png": "/Reboot-Homepage/static/media/bio.a5fc25b3.png",
+    "static/media/header.670f41a4.png": "/Reboot-Homepage/static/media/header.670f41a4.png",
+    "static/media/logo.6ee2e028.png": "/Reboot-Homepage/static/media/logo.6ee2e028.png",
+    "static/media/splash.8951c742.png": "/Reboot-Homepage/static/media/splash.8951c742.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ac3da96.js",
+    "static/js/2.2a7c9a37.chunk.js",
+    "static/css/main.2a24568d.chunk.css",
+    "static/js/main.07e996f5.chunk.js"
+  ]
+}
