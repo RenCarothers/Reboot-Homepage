@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, History } from "react-router-dom";
 import React, { useEffect } from 'react';
 import Play from './components/Play';
 import About from './components/About';
@@ -17,13 +17,13 @@ function App() {
  }, []);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router hashtype={'slash'} basename={process.env.PUBLIC_URL + '/'}>
       <div className="App p-3 mb-2 container">
 
         {/* <!-- Navigation --> */}
         <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
           <div className="container">
-            <a className="navbar-brand" href="#"><img src={logo} className="w-50" alt="logo" /></a>
+            <a className="navbar-brand" href="/"><img src={logo} className="w-50" alt="logo" /></a>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
@@ -32,10 +32,10 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="#/play"><img src={playbtn} className="w-75 button-switch-play" alt="play button" /></a>
+                  <a className="nav-link" href="/play"><img src={playbtn} className="w-75 button-switch-play" alt="play button" /></a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#"><img src={aboutbtn} className="w-75 button-switch-about" alt="about page link" /></a>
+                <a className="nav-link" href="/"><img src={aboutbtn} className="w-75 button-switch-about" alt="about page link" /></a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="https://github.com/RenCarothers/Reboot" target="new"><img src={repobtn} className="w-75 button-switch-repo" alt="repo link" /></a>
@@ -99,10 +99,10 @@ function App() {
           <div class="row">
             <div class="col-sm left-col spaced-content">
                   <Switch>
-                  <Route exact path="#">
+                  <Route exact path="/">
                     <About />
                   </Route> 
-                  <Route path="#/play">
+                  <Route path="/play">
                     <Play />
                   </Route>
                 </Switch>                 
