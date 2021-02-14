@@ -17,7 +17,7 @@ function App() {
  }, []);
 
   return (
-    <Router hashtype={'slash'} basename={process.env.PUBLIC_URL + '/'}>
+    <Router hashtype={'slash'} basename={'Reboot-Homepage/'}>
       <div className="App p-3 mb-2 container">
 
         {/* <!-- Navigation --> */}
