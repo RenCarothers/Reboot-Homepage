@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Reboot-Homepage/static/css/main.2a24568d.chunk.css",
-    "main.js": "/Reboot-Homepage/static/js/main.1ba6fd86.chunk.js",
-    "main.js.map": "/Reboot-Homepage/static/js/main.1ba6fd86.chunk.js.map",
+    "main.js": "/Reboot-Homepage/static/js/main.f3fad15c.chunk.js",
+    "main.js.map": "/Reboot-Homepage/static/js/main.f3fad15c.chunk.js.map",
     "runtime-main.js": "/Reboot-Homepage/static/js/runtime-main.8ac3da96.js",
     "runtime-main.js.map": "/Reboot-Homepage/static/js/runtime-main.8ac3da96.js.map",
     "static/js/2.2a7c9a37.chunk.js": "/Reboot-Homepage/static/js/2.2a7c9a37.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.8ac3da96.js",
     "static/js/2.2a7c9a37.chunk.js",
     "static/css/main.2a24568d.chunk.css",
-    "static/js/main.1ba6fd86.chunk.js"
+    "static/js/main.f3fad15c.chunk.js"
   ]
 }
