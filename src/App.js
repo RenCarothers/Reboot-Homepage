@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, History } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import React, { useEffect } from 'react';
 import Play from './components/Play';
 import About from './components/About';
