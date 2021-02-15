@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React, { useEffect } from 'react';
 import Play from './components/Play';
 import About from './components/About';
@@ -17,7 +17,7 @@ function App() {
  }, []);
 
   return (
-    <Router hashtype={'slash'} basename={'Reboot-Homepage/'}>
+    <Router>
       <div className="App p-3 mb-2 container">
 
         {/* <!-- Navigation --> */}
@@ -32,7 +32,7 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="/Reboot-Homepage/#/play"><img src={playbtn} className="w-75 button-switch-play" alt="play button" /></a>
+                  <a className="nav-link" href="/Reboot-Homepage/play"><img src={playbtn} className="w-75 button-switch-play" alt="play button" /></a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="/Reboot-Homepage"><img src={aboutbtn} className="w-75 button-switch-about" alt="about page link" /></a>
@@ -102,7 +102,7 @@ function App() {
                   <Route exact path="/Reboot-Homepage">
                     <About />
                   </Route> 
-                  <Route path="/Reboot-Homepage/#/play">
+                  <Route path="/Reboot-Homepage/play">
                     <Play />
                   </Route>
                 </Switch>                 
